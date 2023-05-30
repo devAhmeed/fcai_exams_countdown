@@ -28,7 +28,7 @@ h1 {
 }
 
 div.container{
-  margin-top: 20vh;
+  margin-top: 20svh;
 }
 span.thanwaya {
   font-family: "Poppins", sans-serif;
@@ -56,7 +56,7 @@ div.end {
 }
 #demo {
   font-family: "Poppins", sans-serif;
-  font-size: 45px;
+  font-size: 50px;
   text-align: center;
   font-weight: 700;
   letter-spacing: 1px;
@@ -93,7 +93,7 @@ div.ldBar-label {
 }
 #txt {
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   letter-spacing: 4.5px;
   color: #b8b8b8;
@@ -102,15 +102,17 @@ div.ldBar-label {
 
 
 .footer{
-  text-align: center;
-    font-family: "Poppins", sans-serif;
-    letter-spacing: 4.5px;
-    margin-top: 10px;
-          transform: translateY(-10vh);
-      -webkit-transform: translateY(-10vh);
-      -moz-transform: translateY(-10vh);
-      -ms-transform: translateY(-10vh);
-      -o-transform: translateY(-10vh);
+          opacity: 0.5;
+          font-size: 10px;
+          text-align: center;
+          font-family: "Poppins", sans-serif;
+          letter-spacing: 4.5px;
+          margin-top: 10px;
+          transform: translateY(-1svh);
+          -webkit-transform: translateY(-1svh);
+          -moz-transform: translateY(-1svh);
+          -ms-transform: translateY(-1svh);
+          -o-transform: translateY(-1svh);
 }
 
 
@@ -121,24 +123,24 @@ a{
 }
 
 .all{
-      transform: translateY(-36vh);
-      -webkit-transform: translateY(-36vh);
-      -moz-transform: translateY(-36vh);
-      -ms-transform: translateY(-36vh);
-      -o-transform: translateY(-36vh);
+      transform: translateY(-36svh);
+      -webkit-transform: translateY(-36svh);
+      -moz-transform: translateY(-36svh);
+      -ms-transform: translateY(-36svh);
+      -o-transform: translateY(-36svh);
 }
 .footer-x{
       text-align: center;
       font-family: "Poppins", sans-serif;
       letter-spacing: 4.5px;
-      margin: 2vh;
+      margin: 2svh;
       font-weight: 400;
       font-size: 20px;
-      transform: translateY(-10vh);
-      -webkit-transform: translateY(-10vh);
-      -moz-transform: translateY(-10vh);
-      -ms-transform: translateY(-10vh);
-      -o-transform: translateY(-10vh);
+      transform: translateY(-10svh);
+      -webkit-transform: translateY(-10svh);
+      -moz-transform: translateY(-10svh);
+      -ms-transform: translateY(-10svh);
+      -o-transform: translateY(-10svh);
 }
 @media screen and (min-width:300px) and (max-width: 450px) {
   #demo{
