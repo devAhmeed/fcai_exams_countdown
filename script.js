@@ -4,7 +4,6 @@ let q = document.querySelector('#demo');
 
 
 
-console.log(q);
 
 // Update the count down every 1 second
 var x = setInterval(function () {
