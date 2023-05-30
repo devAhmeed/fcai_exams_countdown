@@ -83,7 +83,8 @@ div.end {
 }
 .ldBar path.baseline {
   stroke-width: 3.1;
-  stroke: rgba(142, 178, 255, 0.265);
+  stroke: rgb(142, 178, 255);
+  opacity: 0.2;
   stroke-linecap: round;
   filter: url(#custom-shadow);
   -webkit-filter: url(#custom-shadow);
