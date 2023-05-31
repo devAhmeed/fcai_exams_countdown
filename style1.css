@@ -56,7 +56,7 @@ div.end {
 }
 #demo {
   font-family: "Poppins", sans-serif;
-  font-size: 45px;
+  font-size: 5vh;
   text-align: center;
   font-weight: 700;
   letter-spacing: 1px;
@@ -94,7 +94,7 @@ div.ldBar-label {
 }
 #txt {
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-size: 2.5vh;
   text-align: center;
   letter-spacing: 4.5px;
   color: #b8b8b8;
@@ -145,9 +145,9 @@ a{
 }
 @media screen and (min-width:300px) and (max-width: 450px) {
   #demo{
-    font-size: 40px;
+    font-size: 4vh;
   }
   #txt{
-      font-size: 20px;
+      font-size: 2vh;
   }
 }
