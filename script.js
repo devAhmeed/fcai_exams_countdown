@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 21, 2023 11:00:00").getTime();
+var countDownDate = new Date("Jun 22, 2023 11:00:00").getTime();
 let q = document.querySelector('#demo');
 let m = document.querySelector("#txt");
 let s = document.querySelector(".footer-x");
