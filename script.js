@@ -1,7 +1,9 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 22, 2023 11:00:00").getTime();
+var countDownDate = new Date("Jun 21, 2023 11:00:00").getTime();
 let q = document.querySelector('#demo');
-
+let m = document.querySelector("#txt");
+let s = document.querySelector(".footer-x");
+let r = document.querySelector(".def");
 
 
 console.log(q);
@@ -43,6 +45,9 @@ var x = setInterval(function () {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "YOU MADE IT ! <br> Good Luck";
+    m.style.opacity = "0";
+    s.innerHTML = "You're Free Now Solider ❤ , Enjoy ."
+    r.style.opacity = "0";
   }
 }, 1000);
