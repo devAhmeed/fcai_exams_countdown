@@ -8,10 +8,10 @@
 }
 body {
   height: 100vh;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
-  background: #141414;
+  background: #080808;
 }
 div.flipdown {
   width: 100%;
@@ -27,7 +27,7 @@ h1 {
   color: #ffffff;
 }
 
-div.container{
+div.container {
   margin-top: 20svh;
 }
 span.thanwaya {
@@ -69,7 +69,7 @@ div.end {
   content: ".";
   visibility: hidden;
 }
-.ldBar::after{
+.ldBar::after {
   content: ".";
   visibility: hidden;
 }
@@ -100,54 +100,50 @@ div.ldBar-label {
   color: #b8b8b8;
 }
 
-
-
-.footer{
-          opacity: 0.5;
-          font-size: 10px;
-          text-align: center;
-          font-family: "Poppins", sans-serif;
-          letter-spacing: 4.5px;
-          margin-top: 10px;
-          transform: translateY(-1svh);
-          -webkit-transform: translateY(-1svh);
-          -moz-transform: translateY(-1svh);
-          -ms-transform: translateY(-1svh);
-          -o-transform: translateY(-1svh);
+.footer {
+  opacity: 0.5;
+  font-size: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 4.5px;
+  transform: translateY(-10svh);
+  -webkit-transform: translateY(-10svh);
+  -moz-transform: translateY(-10svh);
+  -ms-transform: translateY(-10svh);
+  -o-transform: translateY(-10svh);
 }
 
-
-a{
+a {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
-.all{
-      transform: translateY(-36svh);
-      -webkit-transform: translateY(-36svh);
-      -moz-transform: translateY(-36svh);
-      -ms-transform: translateY(-36svh);
-      -o-transform: translateY(-36svh);
+.all {
+  transform: translateY(-36svh);
+  -webkit-transform: translateY(-36svh);
+  -moz-transform: translateY(-36svh);
+  -ms-transform: translateY(-36svh);
+  -o-transform: translateY(-36svh);
 }
-.footer-x{
-      text-align: center;
-      font-family: "Poppins", sans-serif;
-      letter-spacing: 4.5px;
-      margin: 2svh;
-      font-weight: 400;
-      font-size: 20px;
-      transform: translateY(-10svh);
-      -webkit-transform: translateY(-10svh);
-      -moz-transform: translateY(-10svh);
-      -ms-transform: translateY(-10svh);
-      -o-transform: translateY(-10svh);
+.footer-x {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 4.5px;
+  margin: 2svh;
+  font-weight: 400;
+  font-size: 20px;
+  transform: translateY(-10svh);
+  -webkit-transform: translateY(-10svh);
+  -moz-transform: translateY(-10svh);
+  -ms-transform: translateY(-10svh);
+  -o-transform: translateY(-10svh);
 }
-@media screen and (min-width:300px) and (max-width: 450px) {
-  #demo{
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  #demo {
     font-size: 4vh;
   }
-  #txt{
-      font-size: 2vh;
+  #txt {
+    font-size: 2vh;
   }
 }
