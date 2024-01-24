@@ -28,7 +28,7 @@ h1 {
 }
 
 div.container {
-  margin-top: 20svh;
+  margin-top: 8svh;
 }
 span.thanwaya {
   font-family: "Poppins", sans-serif;
@@ -46,6 +46,15 @@ span.def {
   width: 100%;
   margin: 20px 0;
   font-weight: 700;
+}
+
+span.on {
+  font-family: "Poppins", sans-serif;
+  font-size: 2svh;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  
 }
 
 div.end {
@@ -145,5 +154,20 @@ a {
   }
   #txt {
     font-size: 2vh;
+  }
+}
+video{
+  margin : 3svh 0;
+}
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .def {
+    font-size: 4vh !important;
+  }
+  #txt {
+    font-size: 2vh;
+  }
+  video{
+    height: 30svh!important;
+
   }
 }

@@ -5,8 +5,6 @@ let m = document.querySelector("#txt");
 let s = document.querySelector(".footer-x");
 let r = document.querySelector(".def");
 
-console.log(q);
-
 // Update the count down every 1 second
 var x = setInterval(function () {
   // Get today's date and time
@@ -41,9 +39,24 @@ var x = setInterval(function () {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    //document.getElementById("demo").innerHTML = "YOU MADE IT ! <br> Good Luck";
-    //m.style.opacity = "0";
-    //s.innerHTML = "You're Free Now Solider ❤ , Enjoy ."
-    //r.style.opacity = "0";
+    document.querySelector(".def").innerHTML = "6/6 ✔ <br> YOU MADE IT ! <br> 3 Semesters Down , 5 To Go !";
+    document.querySelector(".ldBar").style.display = "none";
+    document.querySelector(".on").innerHTML = "Click Anywhere to Sound On";
+    document.querySelector(".video-done").innerHTML =
+      '<video id ="done-video"style="width: 100%; height: 50svh;" autoplay muted loop controls><source src="./Snaptik.app_7205725798081285381.mp4" type="video/mp4" /></video>';
+    
+    document
+      .addEventListener("click", function () {
+        var video = document.getElementById("done-video");
+        video.play();
+        video.muted = false;
+            document.querySelector(".on").style.display = "none";
+      });
+
+
+
+    q.innerHTML ="";
+    m.innerHTML = "";
+    s.innerHTML = "You're Free Now Solider ❤ , Enjoy ."
   }
 }, 1000);
