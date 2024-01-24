@@ -43,7 +43,7 @@ var x = setInterval(function () {
     document.querySelector(".ldBar").style.display = "none";
     document.querySelector(".on").innerHTML = "Click Anywhere to Sound On";
     document.querySelector(".video-done").innerHTML =
-      '<video id ="done-video"style="width: 100%; height: 50svh;" autoplay muted loop controls><source src="./Snaptik.app_7205725798081285381.mp4" type="video/mp4" /></video>';
+      '<video id ="done-video"style="width: 100%; height: 50svh;" autoplay muted loop><source src="./Snaptik.app_7205725798081285381.mp4" type="video/mp4" /></video>';
     
     document
       .addEventListener("click", function () {
