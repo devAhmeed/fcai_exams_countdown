@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+html {
+  background-color: #000;
+}
+body {
+  background: url("lines.svg") no-repeat center center/cover;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  font-family: "Roboto Flex", sans-serif;
+}
+.yy-mm {
+  font-style: italic;
+  opacity: 0.5;
+  letter-spacing: 0.2vw;
+  font-weight: 100;
+}
+
+.border {
+  border-width: 2px !important;
+}
+
+.cont{
+  background-image: url('shapes.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

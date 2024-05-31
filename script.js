@@ -1,7 +1,7 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 24, 2024 15:30:00").getTime();
-let q = document.querySelector("#demo");
-let m = document.querySelector("#txt");
+var countDownDate = new Date("Jun 13, 2024 15:30:00").getTime();
+let q = document.querySelector(".hours");
+let m = document.querySelector(".hh-mm-ss");
 let s = document.querySelector(".footer-x");
 let r = document.querySelector(".def");
 
@@ -34,29 +34,26 @@ var x = setInterval(function () {
     minutes = "0" + minutes;
   }
   // Display the result in the element with id="demo"
-  q.innerHTML = days + " : " + hours + " : " + minutes + " : " + seconds;
+  q.innerHTML = days;
+  m.innerHTML = ":" + hours + ":" + minutes + ":" + seconds;
 
   // If the count down is finished, write some text
   if (distance < 0) {
-    clearInterval(x);
-    document.querySelector(".def").innerHTML = "6/6 ✔ <br> YOU MADE IT ! <br> 3 Semesters Down , 5 To Go !";
-    document.querySelector(".ldBar").style.display = "none";
-    document.querySelector(".on").innerHTML = "Click Anywhere to Sound On";
-    document.querySelector(".video-done").innerHTML =
-      '<video id ="done-video"style="width: 100%; height: 50svh;" autoplay muted loop><source src="./Snaptik.app_7205725798081285381.mp4" type="video/mp4" /></video>';
-    
-    document
-      .addEventListener("click", function () {
-        var video = document.getElementById("done-video");
-        video.play();
-        video.muted = false;
-            document.querySelector(".on").style.display = "none";
-      });
-
-
-
-    q.innerHTML ="";
-    m.innerHTML = "";
-    s.innerHTML = "You're Free Now Solider ❤ , Enjoy ."
+    // clearInterval(x);
+    // document.querySelector(".def").innerHTML = "6/6 ✔ <br> YOU MADE IT ! <br> 3 Semesters Down , 5 To Go !";
+    // document.querySelector(".ldBar").style.display = "none";
+    // document.querySelector(".on").innerHTML = "Click Anywhere to Sound On";
+    // document.querySelector(".video-done").innerHTML =
+    //   '<video id ="done-video"style="width: 100%; height: 50svh;" autoplay muted loop><source src="./Snaptik.app_7205725798081285381.mp4" type="video/mp4" /></video>';
+    // document
+    //   .addEventListener("click", function () {
+    //     var video = document.getElementById("done-video");
+    //     video.play();
+    //     video.muted = false;
+    //         document.querySelector(".on").style.display = "none";
+    //   });
+    // q.innerHTML ="";
+    // m.innerHTML = "";
+    // s.innerHTML = "You're Free Now Solider ❤ , Enjoy ."
   }
 }, 1000);
