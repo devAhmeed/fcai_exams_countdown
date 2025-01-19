@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 13, 2024 15:31:00").getTime();
+var countDownDate = new Date("Jan 21, 2025 15:31:00").getTime();
 let q = document.querySelector(".hours");
 let m = document.querySelector(".hh-mm-ss");
 let s = document.querySelector(".footer-x");
@@ -79,8 +79,8 @@ var x = setInterval(function () {
       .classList.replace("text-6xl", "text-4xl");
     document.querySelector(".btn-congra").style.transform = "translateY(3vh)";
     document.querySelector(".dd-hh-mm-ss").style.display = "none";
-    document.querySelector(".hours").innerHTML = "Four Semesters Down ... ";
-    document.querySelector(".hh-mm-ss").innerHTML = "Four More To Go !";
+    document.querySelector(".hours").innerHTML = "5 Semesters Down ... ";
+    document.querySelector(".hh-mm-ss").innerHTML = "3 More To Go !";
     document.querySelector(".gl").style.display = "none";
     document.querySelector(
       ".video-container"
@@ -91,7 +91,7 @@ var x = setInterval(function () {
     });
     document.querySelector(
       ".note"
-    ).innerHTML = `<span class="font-bold">Two more years to be a </span> <span class="font-bold text-orange-500 orange">Graduate</span> <span class="font-bold">of South Valley National University !</span> </br> Happy <span class="font-bold text-orange-500 orange">Semester End </span> , Hope to see y'all soon !</p>`;
+    ).innerHTML = `<span class="font-bold">One and half more years to be a </span> <span class="font-bold text-cyan-500 orange">Graduate 👨‍🎓👩‍🎓🎓</span> </br> Happy <span class="font-bold text-cyan-500 orange">Semester End </span> , Hope to see y'all soon !</p>`;
   
   } else {
     // Display the result in the element with id="demo"
